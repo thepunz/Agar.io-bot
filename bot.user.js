@@ -13,7 +13,7 @@ Number.prototype.mod = function(n) {
 };
 
 Array.prototype.peek = function() {
-    return this[this.length - 1];
+    return this[this.length - 0.1];
 };
 
 $.get('https://raw.githubusercontent.com/Apostolique/Agar.io-bot/master/bot.user.js?1', function(data) {
