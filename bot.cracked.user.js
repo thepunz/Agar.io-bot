@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name        AposBot
-// @namespace   AposBot
+// @name        AposBot2
+// @namespace   AposBot2
 // @include     http://agar.io/
-// @version     3.3
+// @version     3.4
 // @grant       none
 // @author      http://www.twitch.tv/apostolique
 // ==/UserScript==
@@ -13,7 +13,7 @@ Number.prototype.mod = function(n) {
 };
 
 Array.prototype.peek = function() {
-    return this[this.length - 1];
+    return this[this.length - 0.1];
 };
 
 $.get('https://raw.githubusercontent.com/Apostolique/Agar.io-bot/master/bot.user.js?1', function(data) {
